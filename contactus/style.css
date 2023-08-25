@@ -1,0 +1,62 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+.left-cont{
+    background-color: #D8D9DA;
+    display: block;
+    height: 350px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px 0px 0px 8px;
+}
+.rigth-cont{
+    background-color: #313866;
+    height: 350px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 0px 8px 8px 0px ;
+}
+.icon{
+    margin-top: 20px;
+}
+.icon i {
+    margin-right: 5px;
+}
+.icon span {
+    margin-bottom: 5px;
+    display: block;
+}
+.icon-contact{
+    margin-top: 10px;
+}
+.icon-contact i {
+    margin-right: 5px;
+}
+
+.form input,
+.form textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    display: block;
+    margin-bottom: 10px;
+    outline:none;
+    border: 1px solid white;
+    width: 85%;
+
+}
+.form button{
+    width: 28%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
